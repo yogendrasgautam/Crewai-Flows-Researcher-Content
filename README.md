@@ -4,7 +4,7 @@ Welcome to the Content Research Crew project, powered by [crewAI](https://crewai
 
 ## System Architecture
 
-![Flow Diagram](docs/images/flow_diagram.png)
+![Flow Diagram](flow_diagram.svg)
 
 The system operates through the following key components:
 
