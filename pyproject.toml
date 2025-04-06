@@ -1,7 +1,7 @@
 [project]
-name = "reasearcher_content"
+name = "researcher_content"
 version = "0.1.0"
-description = "reasearcher_content using crewAI"
+description = "researcher_content using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
@@ -9,8 +9,8 @@ dependencies = [
 ]
 
 [project.scripts]
-kickoff = "reasearcher_content.main:kickoff"
-plot = "reasearcher_content.main:plot"
+kickoff = "researcher_content.main:kickoff"
+plot = "researcher_content.main:plot"
 
 [build-system]
 requires = ["hatchling"]
