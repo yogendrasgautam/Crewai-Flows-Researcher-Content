@@ -4,7 +4,7 @@ from typing import List, Dict
 from pydantic import BaseModel, Field
 from crewai import LLM
 from crewai.flow.flow import Flow, listen, start
-from reasearcher_content.crews.content_crew.content_crew import ContentCrew
+from researcher_content.crews.content_crew.content_crew import ContentCrew
 
 # Define our models for structured data
 class Section(BaseModel):
@@ -53,7 +53,7 @@ class GuideCreatorFlow(Flow[GuideCreatorState]):
         print("Creating guide outline...")
 
         # Initialize the LLM
-        llm = LLM(model="openai/gpt-4o-mini", response_format=GuideOutline)
+        llm = LLM(model="gemini/gemini-2.0-flash", response_format=GuideOutline)
 
         # Create the messages for the outline
         messages = [
